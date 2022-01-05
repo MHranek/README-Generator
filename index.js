@@ -1,7 +1,8 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
+const gMD = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -52,16 +53,23 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log(data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
     // Prompt the user
     inquirer
-        .prompt(questions);
-    // save the responses
+        .prompt(questions)
+        // save the responses
+        .then((response) => {
+            console.log(response);
 
-    // generate file
+            // generate file
+            // TODO write data to new file
+            writeToFile('README.md', gMD(response));
+        });
 }
 
 // Function call to initialize app
