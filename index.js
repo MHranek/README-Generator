@@ -37,6 +37,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license do you want?',
+        choices: ['MIT License', 'Apache License', 'Boost Software License', 'Eclipse Public License', 'GNU General Public License', 'Mozilla Public License'],
     },
     {
         type: 'input',
@@ -56,7 +57,8 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     // Prompt the user
-
+    inquirer
+        .prompt(questions);
     // save the responses
 
     // generate file
