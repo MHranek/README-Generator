@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# test
+# README Generator
 ## Description
-test
+A program that generates a detailed README file based on user inputs
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,13 +12,13 @@ test
 - [Questions](#questions)
 
 ## Installation
-test
+Clone from the repo: PLACEHOLDER and open in your favorite code editor
 
 ## Usage
-test
+Type 'node index.js' into the terminal and follow the prompts
 
 ## Contributing
-tset
+Github
 
 ## License
 MIT License
@@ -42,12 +42,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-undefined
 
 ## Tests
-test
+None
 
 ## Questions
-MHranek
-test@test.com
+GitHub profile: [MHranek](https://www.github.com/MHranek)
 
+Email me at: [mhranek@comcast.net](mailto:mhranek@comcast.net)
