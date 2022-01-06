@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license do you want?',
-        choices: ['MIT License', 'Apache License', 'Boost Software License', 'Eclipse Public License', 'GNU General Public License', 'Mozilla Public License'],
+        choices: ['MIT License', 'Apache License', 'Boost Software License', 'GNU General Public License', 'Mozilla Public License'],
     },
     {
         type: 'input',
@@ -68,7 +68,9 @@ function init() {
         // save the responses
         .then((response) => {
             // Write data to new file
-            writeToFile('./output/README.md', gMD(response));
+            // If github name specific readme is requested:
+            // const fileName = './output/' + response.gitHubUser.toUpperCase() + '_README.md';
+            writeToFile('./output/TEST_README.md', gMD(response));
         });
 }
 

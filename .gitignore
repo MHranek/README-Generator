@@ -104,6 +104,3 @@ dist
 .tern-port
 
 .DS_Store
-
-# Generated README files
-output/README.md
