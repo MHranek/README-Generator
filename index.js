@@ -57,17 +57,14 @@ function writeToFile(fileName, data) {
     console.log(data);
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     // Prompt the user
     inquirer
         .prompt(questions)
         // save the responses
         .then((response) => {
-            console.log(response);
-
-            // generate file
-            // TODO write data to new file
+            // Write data to new file
             writeToFile('README.md', gMD(response));
         });
 }
