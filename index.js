@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'useageInfo',
+        name: 'usageInfo',
         message: 'What is the useage information?',
     },
     {
