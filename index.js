@@ -70,7 +70,7 @@ function init() {
             // Write data to new file
             // If github name specific readme is requested:
             // const fileName = './output/' + response.gitHubUser.toUpperCase() + '_README.md';
-            writeToFile('./output/TEST_README.md', gMD(response)); // TODO Replace 'TEST_README' with 'README'
+            writeToFile('./output/README.md', gMD(response)); // TODO Replace 'TEST_README' with 'README'
         });
 }
 

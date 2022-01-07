@@ -15,7 +15,7 @@ A program that generates a detailed README file based on user inputs
 Clone from the repo: [https://github.com/MHranek/README-Generator](https://github.com/MHranek/README-Generator) and open in your favorite code editor
 
 ## Usage
-Type 'node index.js' into the terminal and follow the prompts
+Type 'node index.js' into the terminal and follow the prompts. [video walkthrough](https://watch.screencastify.com/v/FNL9OPtbtL8V5INL94RH)
 
 ## Contributing
 Github
